@@ -7,25 +7,30 @@ h1 {
 } 
 
 table {
-  
-  border-collapse: collapse;
+  margin-top: 50px;
+  border: 3px solid black;
   width: 100%;
 }
 
 th, td {
-  
+  border: 3px solid black;
   text-align: left;
   padding: 8px;
   
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(even){
+background-color: #f2f2f2;
+
+}
 
 th {
-  background-color: #4CAF50;
+  background-color: #86592d;
   color: white;
  
 }
+
+
 </style>
 <h1>Listing Articles</h1>
 <%= link_to 'My Blog', controller: 'articles' %>

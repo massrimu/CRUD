@@ -1,4 +1,16 @@
-<h1>Edit article</h1>
+<h1>Edit Article</h1>
+<style>
+h1{
+
+color:red;
+margin-left: 500px;
+}
+p {
+margin-left: 10px;
+
+}
+
+</style>
 
 <%= form_for @article do |form| %>
  
@@ -16,17 +28,18 @@
     </div>
   <% end %>
  
-  <p>
+
+ <p>
     <%= form.label :title %><br>
     <%= form.text_field :title %>
   </p>
- 
+  
   <p>
     <%= form.label :text %><br>
     <%= form.text_area :text %>
   </p>
  
-  <p>
+ <p>
     <%= form.submit %>
   </p>
  
