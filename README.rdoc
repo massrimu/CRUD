@@ -1,27 +1,30 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+# I have created a blog, I can create as many arctiels as I want, and CRUD each one of them. Also, I can add add comments to each article and CRUD each comment.
 
-* System dependencies
+# I can CRUD each object
 
-* Configuration
+# Each object has more than 3 variables
 
-* Database creation
+# my objects have belong to and has many relationship
 
-* Database initialization
+# my project is on GitHub
 
-* How to run the test suite
+# I have changed the default homepage
 
-* Services (job queues, cache servers, search engines, etc.)
+# I have added Bootstrap.
+ 
+#  I have strong validations with written tests
 
-* Deployment instructions
+# Clear and accurate Readme.
 
-* ...
+# I have installed devise gem, Adding Authentication with Devise, you can sign in, sign out, edit profile, change password, and reset password by sending message to your email to set up new passowrd.
+
+
+# good html/css design 
+
 
 
 Please feel free to use a different markup language if you do not plan to run
